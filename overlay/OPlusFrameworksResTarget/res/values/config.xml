@@ -461,4 +461,7 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
 
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps">true</bool>
+
 </resources>
