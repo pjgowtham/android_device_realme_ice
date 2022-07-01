@@ -103,14 +103,13 @@ odm/etc/bt/msnv11.bin
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/model.data
 odm/etc/camera/config/camera_unit_config
-odm/etc/camera/config/camera_unit_feature_config.protobuf
-odm/etc/camera/config/hi846
-odm/etc/camera/config/imx615
+odm/etc/camera/config/gc02m1_21643
+odm/etc/camera/config/gc02m1b_21643
+odm/etc/camera/config/imx471_21643
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
-odm/etc/camera/config/ov02b
-odm/etc/camera/config/ov64b
+odm/etc/camera/config/s5kgm1st_21643
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/motionblur/model.data
 odm/etc/camera/CameraHWConfiguration.config
@@ -133,19 +132,20 @@ odm/lib/libDeVIS.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.rtb.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
-odm/lib64/camera/com.qti.sensor.hi846.so
-odm/lib64/camera/com.qti.sensor.imx615.so
-odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.ov64b.so
-odm/lib64/camera/com.qti.sensormodule.ov02b.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_ov64b_ak7375c.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_imx615.bin
-odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.default.bin
-odm/lib64/camera/com.qti.tuned.holitech_ov02b.bin
-odm/lib64/camera/com.qti.tuned.qtech_ov64b.bin
-odm/lib64/camera/com.qti.tuned.sunny_hi846.bin
-odm/lib64/camera/com.qti.tuned.sunny_imx615.bin
+odm/lib64/camera/com.qti.sensor.gc02m1_21643.so
+odm/lib64/camera/com.qti.sensor.gc02m1b_21643.so
+odm/lib64/camera/com.qti.sensor.imx471_21643.so
+odm/lib64/camera/com.qti.sensormodule.cxt_gc02m1b.bin
+odm/lib64/camera/com.qti.sensormodule.holitech_gc02m1.bin
+odm/lib64/camera/com.qti.sensormodule.sm7325_s5kgm1st_qtech.bin
+odm/lib64/camera/com.qti.sensormodule.sm7325_s5kgm1st_truly.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
+odm/lib64/camera/com.qti.sensor.s5kgm1st_21643.so
+odm/lib64/camera/com.qti.tuned.cxt_gc02m1b.bin
+odm/lib64/camera/com.qti.tuned.holitech_gc02m1.bin
+odm/lib64/camera/com.qti.tuned.sm7325_s5kgm1st_qtech.bin
+odm/lib64/camera/com.qti.tuned.sm7325_s5kgm1st_truly.bin
+odm/lib64/camera/com.qti.tuned.sunny_imx471.bin
 odm/lib64/lib2DSlender.so
 odm/lib64/libAncFilter.so
 odm/lib64/libAncHumBokeh.so
@@ -434,16 +434,20 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
+# Display calibration data
+vendor/etc/ltm_config_21643_ds_ili7807s_fhd_tft_lcd_panel_with_dsc.xml
+vendor/etc/qdcm_calib_data_21643_ds_ili7807s_fhd_tft_lcd_panel_with_dsc.xml
+
 # Firmware (Fingerprint)
-odm/vendor/firmware/ancap64.b00
-odm/vendor/firmware/ancap64.b01
-odm/vendor/firmware/ancap64.b02
-odm/vendor/firmware/ancap64.b03
-odm/vendor/firmware/ancap64.b04
-odm/vendor/firmware/ancap64.b05
-odm/vendor/firmware/ancap64.b06
-odm/vendor/firmware/ancap64.b07
-odm/vendor/firmware/ancap64.mdt
+odm/vendor/firmware/sileadta.b00
+odm/vendor/firmware/sileadta.b01
+odm/vendor/firmware/sileadta.b02
+odm/vendor/firmware/sileadta.b03
+odm/vendor/firmware/sileadta.b04
+odm/vendor/firmware/sileadta.b05
+odm/vendor/firmware/sileadta.b06
+odm/vendor/firmware/sileadta.b07
+odm/vendor/firmware/sileadta.mdt
 
 # Firmwre (IPA)
 vendor/firmware/yupik_ipa_fws.b00
@@ -503,13 +507,11 @@ vendor/etc/media_yupik_v1/video_system_specs.json
 
 # Sensors
 odm/etc/sensor/config/alsps.json
-odm/etc/sensor/config/kodiak_ak991x_0.json
 odm/etc/sensor/config/kodiak_alsps.json
-odm/etc/sensor/config/kodiak_bmi3x0_0.json
-odm/etc/sensor/config/kodiak_icm4x6xx_0.json
-odm/etc/sensor/config/kodiak_lsm6ds3c_0.json
-odm/etc/sensor/config/kodiak_mmc5603x_0.json
-odm/etc/sensor/config/kodiak_mmc56x3x_0.json
+odm/etc/sensor/config/kodiak_idp_icm4x6xa.json
+odm/etc/sensor/config/kodiak_idp_icm4x6xx_0.json
+odm/etc/sensor/config/kodiak_idp_lsm6dso.json
+odm/etc/sensor/config/kodiak_idp_mmc56x3x_0.json
 odm/etc/sensor/sensor_config.json
 odm/etc/sensor.cfg
 
