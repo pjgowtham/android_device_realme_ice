@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=RMX3360
+export DEVICE=RMX3461
 export DEVICE_COMMON=sm8350-common
 export VENDOR=oplus
 
