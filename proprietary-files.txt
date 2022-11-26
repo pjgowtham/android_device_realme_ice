@@ -460,6 +460,10 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
+# Display calibration data
+vendor/etc/ltm_config_21643_ds_ili7807s_fhd_tft_lcd_panel_with_dsc.xml
+vendor/etc/qdcm_calib_data_21643_ds_ili7807s_fhd_tft_lcd_panel_with_dsc.xml
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
