@@ -23,6 +23,11 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# fstab
+PRODUCT_PACKAGES += \
+    sdcard_fstab.default \
+    sdcard_fstab.default.vendor_ramdisk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
