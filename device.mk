@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
     sdcard_fstab.default \
     sdcard_fstab.default.vendor_ramdisk
 
+# NFC
+TARGET_DEVICE_SUPPORTS_NFC := false
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
