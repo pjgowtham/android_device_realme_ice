@@ -1,2 +1,0 @@
-# Init
-/(vendor|system/vendor)/bin/init\.sensors_fix\.sh          u:object_r:vendor_init-qcom-sensors-sh_exec:s0
