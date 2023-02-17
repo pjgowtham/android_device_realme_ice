@@ -63,4 +63,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oplus/lunaa/lunaa-vendor.mk)
+$(call inherit-product, vendor/oplus/ice/ice-vendor.mk)

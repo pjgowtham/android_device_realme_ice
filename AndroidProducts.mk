@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lunaa.mk
+    $(LOCAL_DIR)/lineage_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lunaa-user \
-    lineage_lunaa-userdebug \
-    lineage_lunaa-eng
+    lineage_ice-user \
+    lineage_ice-userdebug \
+    lineage_ice-eng

@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=lunaa
+export DEVICE=ice
 export DEVICE_COMMON=sm8350-common
 export VENDOR=oplus
 

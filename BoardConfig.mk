@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oplus/lunaa
+DEVICE_PATH := device/oplus/ice
 
 # Include the common OEM chipset BoardConfig.
 include device/oplus/sm8350-common/BoardConfigCommon.mk
@@ -27,4 +27,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Include the proprietary files BoardConfig.
-include vendor/oplus/lunaa/BoardConfigVendor.mk
+include vendor/oplus/ice/BoardConfigVendor.mk
