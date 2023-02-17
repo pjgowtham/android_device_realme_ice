@@ -14,6 +14,7 @@ SOONG_CONFIG_qtidisplay_udfps := true
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
+TARGET_KERNEL_CONFIG += vendor/lineage_yupik.config
 TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_OPLUS_CHG_OP9RT_PMIC_VOOCPHY=y
 
 # Properties
