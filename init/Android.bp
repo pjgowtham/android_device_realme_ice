@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.oplus_ice.rc",
+    src: "init.oplus_ice.rc",
+    sub_dir: "init",
+    device_specific: true,
+}

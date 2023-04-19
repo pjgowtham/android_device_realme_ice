@@ -1,0 +1,9 @@
+#
+# Copyright (C) 2022 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on property:ro.boot.prjname=21695
+    setprop vendor.usb.product_string "realme 9 Speed Edition"
+    setprop bluetooth.device.default_name "realme 9 Speed Edition"
