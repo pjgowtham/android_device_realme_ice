@@ -13,7 +13,7 @@ DEVICE_PATH := device/realme/ice
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/oplus_yupik_QGKI.config
+TARGET_KERNEL_SOURCE := kernel/oplus/RMX3461
 
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/chg_enable
