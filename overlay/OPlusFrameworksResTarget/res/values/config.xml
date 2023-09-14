@@ -414,18 +414,6 @@
         <item>8000</item>
     </integer-array>
 
-    <!-- Control whether the always on display mode is available. This should only be enabled on
-         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
-         states. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
-    <!-- Control whether the always on display mode is enabled by default. This value will be used
-         during initialization when the setting is still null. -->
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
-
-    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
-    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
-
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
          {@link android.util.PathParser}.
@@ -466,12 +454,5 @@
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
-
-    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>540</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2206</item> <!-- <item>sensorLocationY</item> -->
-        <item>96</item>   <!-- <item>sensorRadius</item> -->
-    </integer-array>
 
 </resources>
