@@ -24,8 +24,8 @@ PRODUCT_MODEL := RMX3461
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RMX3360-user 14 TP1A.220905.001 R.18a3a4d-41d9-71a9 release-keys" \
-    BuildFingerprint=realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.18a3a4d-41d9-71a9:user/release-keys \
+    BuildDesc="RMX3461-user 13 TP1A.220905.001 R.1bafa12-15aec-18ea2 release-keys" \
+    BuildFingerprint=realme/RMX3461/RE54BFL1:13/TP1A.220905.001/R.1bafa12-15aec-18ea2:user/release-keys \
     DeviceName=RE54BFL1 \
     DeviceProduct=RMX3461 \
     SystemDevice=RE54BFL1 \
